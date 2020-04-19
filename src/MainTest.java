@@ -1,15 +1,16 @@
 import org.junit.Test;
 
-public class MainTest {
+public class  MainTest extends CoreTestCase {
+
+MathHelper Math = new MathHelper();
+
     @Test
-    public void  myFirstTest()
-    {
-        int a = 10;
-        int b = 15;
-        if(a > b) {
-            System.out.println("This will never happen");
-        } else {
-            System.out.println("This is what will happen");
-        }
+    public void  myFirstTest() {
+        int a = Math.multiply(5);
+        System.out.println(a);
+
+        int b = Math.multiply(10, 15);
+        System.out.println(b);
     }
+
 }

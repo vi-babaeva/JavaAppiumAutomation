@@ -13,3 +13,5 @@ buildNumber.properties
 out/production/JavaAppiumAutomation/MainTest.class
 *.class
 .idea/uiDesigner.xml
+out/production/JavaAppiumAutomation/META-INF/JavaAppiumAutomation.kotlin_module
+out/production/JavaAppiumAutomation/MainTest.class
