@@ -11,3 +11,5 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 .idea/vcs.xml
 out/production/JavaAppiumAutomation/MainTest.class
+*.class
+.idea/uiDesigner.xml
